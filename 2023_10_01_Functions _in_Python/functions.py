@@ -1,7 +1,8 @@
-def say_hello(name):
-    print("Hello")
+def print_params(value):
+    print(value)
+    print(value)
 
-say_hello()
-say_hello()
-say_hello()
-say_hello()
+print_params("Hello")
+print_params([1, 2, 3])
+print_params(123)
+
